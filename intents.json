@@ -37,14 +37,14 @@
         "tag": "age",
         "patterns": [
           "how old",
-          "how old is tim",
+          "how old is nisarg",
           "what is your age",
           "how old are you",
           "age?"
         ],
         "responses": [
-          "I am 18 years old!",
-          "18 years young!"
+          "I am 20 years old!",
+          "20 years young!"
         ],
         "context_set": ""
       },
@@ -56,9 +56,9 @@
           "whats your name?"
         ],
         "responses": [
-          "You can call me Tim.",
-          "I'm Tim!",
-          "I'm Tim aka Tech With Tim."
+          "You can call me nisarg.",
+          "I'm nisarg!",
+          "I'm NISARG SHAH."
         ],
         "context_set": ""
       },
