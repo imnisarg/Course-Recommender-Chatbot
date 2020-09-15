@@ -19,8 +19,8 @@ The dataset is also made public at Kaggle:- https://www.kaggle.com/nisargbshah/d
 1) Extract words from each pattern & create a bag of words. Sort the bag of words lexicographically(dictionary order) , Tokenization & Stemming done on words.
 2) Extract the tag as a label(This is what we want as output from our NN model so that we can use it for extracting the courses). Sort the labels as well.
 3) Preparing the training dataset :- 
-Dimension of dataset :- n*m where n:- No of tags in dataset , m:- No of words in bag of words.
-Dimension of output :- n*1 
+Dimension of dataset :- nxm where n:- No of tags in dataset , m:- No of words in bag of words.
+Dimension of output :- nx1 
 For every tag training data vector is a 0-1 vector of size m, 0 represents word present at index i in bag of words is not present in the corresponding pattern & 1 represents the presence of that word.
 The output vector is also similar.
 
